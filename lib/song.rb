@@ -3,4 +3,4 @@ class Song
   @@artist_count=0 
   @@genre_count=0 
 end
-song.count 
+puts song = class.new("name","artist","assert_generates")
