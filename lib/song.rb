@@ -1,6 +1,17 @@
-class Song 
-  attr_accessor :name, :artists, :assert_generates
-  @@artist_count=0 
-  @@genre_count=0 
+class Element
+  def initialize (name, atomic_number)
+      @name= name
+      @atomic_number= atomic_number
+  end
+  def name
+    @name
+  end
+  def atomic_number
+    @atomic_number
+  end
+  def atomic_mass
+    atomic_number*2
+  end
 end
-puts song = Song.new("name","artist","assert_generates")
+
+puts hydrogen = Element.new("hydrogen", 1)
