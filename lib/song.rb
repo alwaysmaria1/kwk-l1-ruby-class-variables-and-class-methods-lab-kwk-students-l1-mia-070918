@@ -16,3 +16,5 @@ end
 
 puts hydrogen = Element.new("hydrogen", 1)
 puts hydrogen.name
+puts hydrogen.atomic_number
+puts hydrogen.atomic_mass
