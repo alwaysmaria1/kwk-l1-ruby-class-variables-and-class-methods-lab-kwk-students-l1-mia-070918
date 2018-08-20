@@ -15,3 +15,4 @@ class Element
 end
 
 puts hydrogen = Element.new("hydrogen", 1)
+puts hydrogen.name
